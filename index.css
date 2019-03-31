@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90vw;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.gamecontainer {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.ship {
+  background-color: lightslategrey;
+}
+
+.hit {
+  background-color: red;
+}
+
+.miss {
+  background-color: blue;
+}
